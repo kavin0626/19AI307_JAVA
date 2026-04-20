@@ -1,19 +1,18 @@
-# Ex.No:1(C) CONTROL STATEMENTS
+# Ex.No:1(A) CLASS & OBJECTS
 
 ## AIM:
-To develop a Java program to check given number is zero or not.
+To create a class named 'Student' with String variable 'name' and String variable 'address'.
 
 ## ALGORITHM :
 1.	Start the program.
-2.	Declare an integer variable 'num'
-3.	Create a Scanner object 'sc' to read input from the user
-4.	Read an integer input from the user and store it in 'num'
-5.	Check if 'num' is equal to 0:
-a.	If true, print "Given number is Zero"
-b.	If false, print 'num' followed by " is Non-Zero"
-6.	End
-
-
+2.	Define a class named 'Student'
+3.	Declare a String variable 'name' and initialize it with the value "John"
+4.	Declare a String variable 'address' and initialize it with the value "Chennai"
+5.	Define a class named 'Test'
+6.	Define the 'main' method within the 'Test' class
+7.	Create an object 'obj' of the 'Student' class
+8.	Print the value of 'name' and 'address' variables of the 'obj' object
+9.	End
 
 
 
@@ -21,23 +20,34 @@ b.	If false, print 'num' followed by " is Non-Zero"
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: KAVINRAJ.S
+RegisterNumber:212223100019
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
-
+```
+class Student
+{
+    String name;
+    String address;
+}
+public class Main
+{
+    public static void main(String[] args)
+   {
+        Student obj= new Student();        
+        obj.name="John";
+        obj.address="Chennai";
+        System.out.println(obj.name+" "+obj.address);
+    }
+}
+```
 
 ## OUTPUT:
-
-
-
+![image](https://github.com/user-attachments/assets/4eeffebe-7759-467e-bf87-ccd21a978cdf)
 ## RESULT:
-Thus, the Java program to check given number is zero or not was created successfully.
+Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
+
 
